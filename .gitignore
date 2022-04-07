@@ -33,4 +33,4 @@ build/
 .vscode/
 
 ### Twitter oauth ###
-./twitter-to-kafka-service/src/resources/twitter4j.properties
+./twitter-to-kafka-service/src/main/resources/twitter4j.properties
