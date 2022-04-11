@@ -1,0 +1,14 @@
+#Required in case of loading configuration in bootstrap phase which has priority over application.yml
+
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          #for high availability and repo caching: use ssh with shared file system or http with remote git repo
+          uri: file://home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server-repository
+          clone-on-start: true #clone config repo on startup
+    fail-fast: true #if config server cannot reach config server repo it will stop immediately
+

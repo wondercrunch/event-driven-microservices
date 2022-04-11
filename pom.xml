@@ -10,6 +10,7 @@
 		<module>kafka/kafka-producer</module>
 		<module>kafka/kafka-admin</module>
 		<module>common-config</module>
+		<module>config-server</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -32,6 +33,8 @@
 		<spring-kafka.version>2.8.4</spring-kafka.version>
 		<spring-retry.version>1.3.2</spring-retry.version>
 		<kafka-avro-serializer.version>7.0.1</kafka-avro-serializer.version>
+		<spring-cloud.version>3.1.1</spring-cloud.version>
+		<spring-cloud-dependencies.version>2021.0.1</spring-cloud-dependencies.version>
 	</properties>
 
 	<repositories>
@@ -84,6 +87,14 @@
 				<artifactId>spring-boot-starter-test</artifactId>
 				<version>${spring-boot.version}</version>
 				<scope>test</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud-dependencies.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 
 			<dependency>
@@ -140,6 +151,13 @@
 				<artifactId>spring-boot-starter-webflux</artifactId>
 				<version>${spring-boot.version}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-config-server</artifactId>
+				<version>${spring-cloud.version}</version>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
