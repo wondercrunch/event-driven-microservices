@@ -34,3 +34,5 @@ build/
 
 ### Twitter oauth ###
 **/twitter4j.properties
+
+!**/logs/

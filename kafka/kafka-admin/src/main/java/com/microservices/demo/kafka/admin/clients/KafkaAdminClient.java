@@ -54,6 +54,8 @@ public class KafkaAdminClient {
      * Create topics written in kafka config data
      */
     public void createTopics() {
+        sleep(kafkaConfigData.getStartupDelayMs());
+
         CreateTopicsResult createTopicsResult;
         try {
             createTopicsResult = retryTemplate.execute(this::doCreateTopics);
@@ -102,7 +104,6 @@ public class KafkaAdminClient {
         Integer maxRetryCount = retryConfigData.getMaxAttempts();
         int multiplier = retryConfigData.getMultiplier().intValue();
         Long sleepTimeMs = retryConfigData.getSleepTimeMs();
-
         while (getSchemaRegistryStatus() == HttpStatus.SERVICE_UNAVAILABLE) {
             checkMaxRetry(retryCount++, maxRetryCount);
             sleep(sleepTimeMs);
@@ -134,6 +135,7 @@ public class KafkaAdminClient {
     }
 
     private void sleep(Long sleepTimeMs) {
+        if (sleepTimeMs <= 0) return;
         try {
             Thread.sleep(sleepTimeMs);
         } catch (InterruptedException e) {

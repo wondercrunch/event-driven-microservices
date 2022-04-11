@@ -17,4 +17,5 @@ public class KafkaConfigData {
     private List<String> topicNamesToCreate;
     private Integer numOfPartitions;
     private Short replicationFactor;
+    private Long startupDelayMs;
 }
