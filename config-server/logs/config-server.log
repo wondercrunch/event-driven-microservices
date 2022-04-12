@@ -1,0 +1,502 @@
+2022-04-11 17:44:33 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 17:44:33 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 2356 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 17:44:33 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 17:44:37 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 17:44:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 17:44:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 17:44:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 17:44:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 17:44:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 17:44:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5364 ms
+2022-04-11 17:44:41 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: You need to configure a uri for the git repository.
+2022-04-11 17:44:41 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-11 17:44:41 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-11 17:44:41 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2022-04-11 18:07:58 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 18:07:58 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 2927 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 18:07:58 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 18:08:03 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 18:08:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 18:08:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:08:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 18:08:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 18:08:05 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 18:08:05 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5757 ms
+2022-04-11 18:08:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:08:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-04-11 18:08:08 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 13.217 seconds (JVM running for 17.647)
+2022-04-11 18:15:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 18:15:45 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 3564 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 18:15:45 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 18:15:49 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 18:15:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 18:15:50 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:15:50 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 18:15:50 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 18:15:51 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 18:15:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5388 ms
+2022-04-11 18:15:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:15:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-04-11 18:15:54 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 12.639 seconds (JVM running for 16.797)
+2022-04-11 18:17:18 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 18:17:18 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 3731 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 18:17:18 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 18:17:23 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 18:17:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 18:17:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:17:24 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 18:17:24 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 18:17:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 18:17:24 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5368 ms
+2022-04-11 18:17:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:17:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-04-11 18:17:27 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 13.145 seconds (JVM running for 18.117)
+2022-04-11 18:41:11 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 5890 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 18:41:11 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 18:41:11 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 18:41:18 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 18:41:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 18:41:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:41:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 18:41:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 18:41:21 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 18:41:21 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9415 ms
+2022-04-11 18:41:33 [main] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Error occured cloning to base directory.
+org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:178)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:363)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:284)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+Caused by: org.eclipse.jgit.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 24 common frames omitted
+2022-04-11 18:41:33 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+2022-04-11 18:41:33 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-11 18:41:33 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-11 18:41:33 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+Caused by: org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:178)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:363)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:284)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.eclipse.jgit.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 24 common frames omitted
+2022-04-11 18:43:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 18:43:45 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 6257 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 18:43:45 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 18:43:50 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 18:43:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 18:43:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:43:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 18:43:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 18:43:51 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 18:43:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5659 ms
+2022-04-11 18:44:04 [main] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Error occured cloning to base directory.
+org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:178)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:363)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:284)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+Caused by: org.eclipse.jgit.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 24 common frames omitted
+2022-04-11 18:44:04 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+2022-04-11 18:44:04 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-11 18:44:04 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-11 18:44:04 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+Caused by: org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:178)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:363)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:284)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.eclipse.jgit.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 24 common frames omitted
+2022-04-11 18:44:47 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 18:44:47 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 6374 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 18:44:47 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 18:44:51 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 18:44:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 18:44:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:44:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 18:44:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 18:44:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 18:44:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5781 ms
+2022-04-11 18:45:01 [main] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Error occured cloning to base directory.
+org.eclipse.jgit.api.errors.TransportException: https://github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:178)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:363)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:284)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 24 common frames omitted
+2022-04-11 18:45:01 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is org.eclipse.jgit.api.errors.TransportException: https://github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+2022-04-11 18:45:01 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-11 18:45:01 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-11 18:45:01 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is org.eclipse.jgit.api.errors.TransportException: https://github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+Caused by: org.eclipse.jgit.api.errors.TransportException: https://github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:178)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:363)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:284)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 24 common frames omitted
+2022-04-11 18:47:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 18:47:57 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 6519 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 18:47:57 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 18:48:01 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 18:48:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 18:48:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:48:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 18:48:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 18:48:03 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 18:48:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5780 ms
+2022-04-11 18:48:09 [main] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Error occured cloning to base directory.
+org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:178)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:363)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:284)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+Caused by: org.eclipse.jgit.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 24 common frames omitted
+2022-04-11 18:48:09 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+2022-04-11 18:48:09 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-11 18:48:09 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-11 18:48:09 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+Caused by: org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:178)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:363)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:284)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.eclipse.jgit.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 24 common frames omitted
+2022-04-11 18:49:48 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 6688 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 18:49:48 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 18:49:48 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 18:49:53 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 18:49:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 18:49:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:49:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 18:49:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 18:49:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 18:49:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5772 ms
+2022-04-11 18:50:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-04-11 18:50:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-04-11 18:50:02 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 18.462 seconds (JVM running for 23.276)
+2022-04-11 19:12:04 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 19:12:04 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 7349 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 19:12:04 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 19:12:08 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 19:12:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 19:12:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 19:12:10 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 19:12:10 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 19:12:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 19:12:10 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5941 ms
+2022-04-11 19:12:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-04-11 19:12:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-04-11 19:12:18 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 17.678 seconds (JVM running for 22.507)
+2022-04-11 19:13:01 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 19:13:01 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 7465 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 19:13:01 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 19:13:07 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 19:13:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 19:13:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 19:13:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 19:13:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 19:13:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 19:13:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7386 ms
+2022-04-11 19:13:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-04-11 19:13:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-04-11 19:13:17 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 19.473 seconds (JVM running for 24.383)
+2022-04-11 19:20:25 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-11 19:20:25 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-11 19:20:25 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2022-04-11 19:20:28 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-17677265636579028056/config-client-twitter_to_kafka.yml]' via location 'file:/tmp/config-repo-17677265636579028056/'
+2022-04-11 19:20:28 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-17677265636579028056/config-client.yml]' via location 'file:/tmp/config-repo-17677265636579028056/'
+2022-04-11 19:22:28 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 19:22:28 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 7990 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 19:22:28 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 19:22:33 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 19:22:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 19:22:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 19:22:34 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 19:22:34 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 19:22:34 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 19:22:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5743 ms
+2022-04-11 19:22:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-04-11 19:22:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-04-11 19:22:42 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 19.612 seconds (JVM running for 23.71)
+2022-04-11 19:24:03 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-11 19:24:03 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-11 19:24:03 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2022-04-11 19:24:05 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-14447629076548037990/config-client-twitter_to_kafka.yml]' via location 'file:/tmp/config-repo-14447629076548037990/'
+2022-04-11 19:24:05 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-14447629076548037990/config-client.yml]' via location 'file:/tmp/config-repo-14447629076548037990/'
+2022-04-11 19:39:27 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.14.1 on wondercrunch-K53TK with PID 8698 (/home/wondercrunch/event-driven-microservices-course/microservices-demo/config-server/target/classes started by wondercrunch in /home/wondercrunch/event-driven-microservices-course/microservices-demo)
+2022-04-11 19:39:27 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 19:39:27 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-11 19:39:33 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4203d57d-7515-37c3-887c-c79e721e8373
+2022-04-11 19:39:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-04-11 19:39:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-04-11 19:39:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-11 19:39:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-11 19:39:36 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-11 19:39:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8350 ms
+2022-04-11 19:39:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-04-11 19:39:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-04-11 19:39:44 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 22.393 seconds (JVM running for 27.023)
+2022-04-11 19:40:19 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-11 19:40:19 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-11 19:40:19 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-04-11 19:40:21 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-18365378299840464067/config-client-twitter_to_kafka.yml]' via location 'file:/tmp/config-repo-18365378299840464067/'
+2022-04-11 19:40:21 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-18365378299840464067/config-client.yml]' via location 'file:/tmp/config-repo-18365378299840464067/'
+2022-04-11 19:46:03 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-18365378299840464067/config-client-twitter_to_kafka.yml]' via location 'file:/tmp/config-repo-18365378299840464067/'
+2022-04-11 19:46:03 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-18365378299840464067/config-client.yml]' via location 'file:/tmp/config-repo-18365378299840464067/'
