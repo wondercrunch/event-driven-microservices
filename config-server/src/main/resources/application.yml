@@ -17,10 +17,15 @@ spring:
           uri: https://github.com/wondercrunch/spring-cloud-config-server-repo
           default-label: main
           username: wondercrunch
-          password: token
+          password: ${GITHUB_TOKEN}
           clone-on-start: true #clone config repo on startup
     fail-fast: true #if config server cannot reach config server repo it will stop immediately
   security:
     user:
       name: spring_cloud_user
-      password: springCloudPwd!
+      #{cypher} - lets spring know pass is encrypted by java cryptography extension (jce)
+      password: '{cypher}295f02ad82083d0c58c55ebe5f94eedb1c3dfd9920f32059a677efaa14631138'
+
+#encrypt:
+  #key: 'key'
+#no need since it comes from env variable $ENCRYPT_KEY
