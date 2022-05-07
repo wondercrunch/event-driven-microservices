@@ -23,8 +23,8 @@ spring:
   security:
     user:
       name: spring_cloud_user
-      #{cypher} - lets spring know pass is encrypted by java cryptography extension (jce)
-      password: '{cypher}295f02ad82083d0c58c55ebe5f94eedb1c3dfd9920f32059a677efaa14631138'
+      password: '{cipher}e717f38a1297593f46a1353217f23822581045951ee2dd19c4d8808ce537b2d9'
+      #cipher{} - lets spring know pass is encrypted by java cryptography extension (jce)
 
 #encrypt:
   #key: 'key'

@@ -12,8 +12,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public void configure(WebSecurity web) throws Exception {
         //enable encrypt/decrypt endpoints on config server
         web.ignoring()
+                .antMatchers("/actuator/**")
                 .antMatchers("/encrypt/**")
-                .antMatchers("/decrypt/**");
+                .antMatchers("/decrypt/**")
+                ;
         super.configure(web);
     }
 }
