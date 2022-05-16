@@ -2,6 +2,7 @@ package com.microservices.demo.kafka.producer.config;
 
 import com.microservices.demo.config.KafkaConfigData;
 import com.microservices.demo.config.KafkaProducerConfigData;
+import lombok.RequiredArgsConstructor;
 import org.apache.avro.specific.SpecificRecordBase;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.springframework.context.annotation.Bean;
@@ -15,16 +16,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
+@RequiredArgsConstructor
 public class KafkaProducerConfig<K extends Serializable, V extends SpecificRecordBase> {
 
     private final KafkaConfigData kafkaConfigData;
 
     private final KafkaProducerConfigData kafkaProducerConfigData;
 
-    public KafkaProducerConfig(KafkaConfigData kafkaConfigData, KafkaProducerConfigData kafkaProducerConfigData) {
-        this.kafkaConfigData = kafkaConfigData;
-        this.kafkaProducerConfigData = kafkaProducerConfigData;
-    }
 
     @Bean
     Map<String, Object> producerConfig() {

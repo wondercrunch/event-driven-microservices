@@ -9,6 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- first way of creating submodules - define all <modules> in microservices-demo/pom.xml file
+     and use <relativePath> to refer to it -->
+    <!-- here kafka module only serves as dir for kafka-* modules
+     and they use <relativePath>../../pom.xml</relativePath> so their parent is main pom file -->
     <artifactId>kafka</artifactId>
 
 

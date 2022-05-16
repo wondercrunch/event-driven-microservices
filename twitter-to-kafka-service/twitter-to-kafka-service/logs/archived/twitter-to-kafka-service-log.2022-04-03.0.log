@@ -92,8 +92,8 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 Caused by: java.lang.IllegalStateException: Authentication credentials are missing. See http://twitter4j.org/en/configuration.html for details. See and register at http://apps.twitter.com/
 	at twitter4j.TwitterBaseImpl.ensureAuthorizationEnabled(TwitterBaseImpl.java:219)
 	at twitter4j.TwitterStreamImpl.filter(TwitterStreamImpl.java:325)
-	at com.microservices.demo.twittertokafkaservice.runner.impl.TwitterToKafkaStreamRunner.addFilter(TwitterToKafkaStreamRunner.java:51)
-	at com.microservices.demo.twittertokafkaservice.runner.impl.TwitterToKafkaStreamRunner.start(TwitterToKafkaStreamRunner.java:37)
+	at com.microservices.demo.twittertokafkaservice.runner.TwitterToKafkaStreamRunner.addFilter(TwitterToKafkaStreamRunner.java:51)
+	at com.microservices.demo.twittertokafkaservice.runner.TwitterToKafkaStreamRunner.start(TwitterToKafkaStreamRunner.java:37)
 	at com.microservices.demo.twittertokafkaservice.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
 	... 73 common frames omitted
@@ -185,8 +185,8 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 Caused by: java.lang.IllegalStateException: Authentication credentials are missing. See http://twitter4j.org/en/configuration.html for details. See and register at http://apps.twitter.com/
 	at twitter4j.TwitterBaseImpl.ensureAuthorizationEnabled(TwitterBaseImpl.java:219)
 	at twitter4j.TwitterStreamImpl.filter(TwitterStreamImpl.java:325)
-	at com.microservices.demo.twittertokafkaservice.runner.impl.TwitterToKafkaStreamRunner.addFilter(TwitterToKafkaStreamRunner.java:51)
-	at com.microservices.demo.twittertokafkaservice.runner.impl.TwitterToKafkaStreamRunner.start(TwitterToKafkaStreamRunner.java:37)
+	at com.microservices.demo.twittertokafkaservice.runner.TwitterToKafkaStreamRunner.addFilter(TwitterToKafkaStreamRunner.java:51)
+	at com.microservices.demo.twittertokafkaservice.runner.TwitterToKafkaStreamRunner.start(TwitterToKafkaStreamRunner.java:37)
 	at com.microservices.demo.twittertokafkaservice.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
 	... 72 common frames omitted
@@ -273,8 +273,8 @@ Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
 Caused by: java.lang.IllegalStateException: Authentication credentials are missing. See http://twitter4j.org/en/configuration.html for details. See and register at http://apps.twitter.com/
 	at twitter4j.TwitterBaseImpl.ensureAuthorizationEnabled(TwitterBaseImpl.java:219)
 	at twitter4j.TwitterStreamImpl.filter(TwitterStreamImpl.java:325)
-	at com.microservices.demo.twittertokafkaservice.runner.impl.TwitterToKafkaStreamRunner.addFilter(TwitterToKafkaStreamRunner.java:51)
-	at com.microservices.demo.twittertokafkaservice.runner.impl.TwitterToKafkaStreamRunner.start(TwitterToKafkaStreamRunner.java:37)
+	at com.microservices.demo.twittertokafkaservice.runner.TwitterToKafkaStreamRunner.addFilter(TwitterToKafkaStreamRunner.java:51)
+	at com.microservices.demo.twittertokafkaservice.runner.TwitterToKafkaStreamRunner.start(TwitterToKafkaStreamRunner.java:37)
 	at com.microservices.demo.twittertokafkaservice.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
 	... 73 common frames omitted

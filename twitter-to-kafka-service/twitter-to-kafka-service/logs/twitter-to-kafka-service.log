@@ -373,7 +373,7 @@ Caused by: com.microservices.demo.kafka.admin.exception.KafkaClientException: Re
 	at com.microservices.demo.kafka.admin.clients.KafkaAdminClient.checkMaxRetry(KafkaAdminClient.java:146)
 	at com.microservices.demo.kafka.admin.clients.KafkaAdminClient.checkTopicsCreated(KafkaAdminClient.java:89)
 	at com.microservices.demo.kafka.admin.clients.KafkaAdminClient.createTopics(KafkaAdminClient.java:63)
-	at com.microservices.demo.twittertokafkaservice.init.impl.KafkaStreamInitializer.init(KafkaStreamInitializer.java:26)
+	at com.microservices.demo.twittertokafkaservice.init.KafkaStreamInitializer.init(KafkaStreamInitializer.java:26)
 	at com.microservices.demo.twittertokafkaservice.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:35)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
 	... 73 common frames omitted
@@ -538,7 +538,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 Caused by: com.microservices.demo.kafka.admin.exception.KafkaClientException: Reached max number of retries for reading Kafka topics
 	at com.microservices.demo.kafka.admin.clients.KafkaAdminClient.checkMaxRetry(KafkaAdminClient.java:146)
 	at com.microservices.demo.kafka.admin.clients.KafkaAdminClient.checkSchemaRegistry(KafkaAdminClient.java:107)
-	at com.microservices.demo.twittertokafkaservice.init.impl.KafkaStreamInitializer.init(KafkaStreamInitializer.java:27)
+	at com.microservices.demo.twittertokafkaservice.init.KafkaStreamInitializer.init(KafkaStreamInitializer.java:27)
 	at com.microservices.demo.twittertokafkaservice.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:35)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
 	... 72 common frames omitted
@@ -630,7 +630,7 @@ Caused by: com.microservices.demo.kafka.admin.exception.KafkaClientException: Re
 	at com.microservices.demo.kafka.admin.clients.KafkaAdminClient.checkMaxRetry(KafkaAdminClient.java:146)
 	at com.microservices.demo.kafka.admin.clients.KafkaAdminClient.checkTopicsCreated(KafkaAdminClient.java:89)
 	at com.microservices.demo.kafka.admin.clients.KafkaAdminClient.createTopics(KafkaAdminClient.java:63)
-	at com.microservices.demo.twittertokafkaservice.init.impl.KafkaStreamInitializer.init(KafkaStreamInitializer.java:26)
+	at com.microservices.demo.twittertokafkaservice.init.KafkaStreamInitializer.init(KafkaStreamInitializer.java:26)
 	at com.microservices.demo.twittertokafkaservice.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:35)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
 	... 73 common frames omitted

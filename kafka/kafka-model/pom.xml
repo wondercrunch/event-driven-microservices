@@ -12,15 +12,12 @@
 
     <artifactId>kafka-model</artifactId>
 
-    <properties>
-        <avro.version>1.11.0</avro.version>
-    </properties>
+
 
     <dependencies>
         <dependency>
             <groupId>org.apache.avro</groupId>
             <artifactId>avro</artifactId>
-            <version>${avro.version}</version>
         </dependency>
     </dependencies>
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="DEV_HOME" value="./kafka-to-elastic-service/logs"/>
+    <property name="APP_NAME" value="kafka-to-elastic-service"/>
+
+    <!-- no need to add path; logback will scan starting from the top directory-->
+    <include resource="logback-common.xml"/>
+
+</configuration>

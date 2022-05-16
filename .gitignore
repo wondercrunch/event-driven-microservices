@@ -35,7 +35,6 @@ build/
 ### Twitter oauth ###
 **/twitter4j.properties
 
-## temp github token ignore ##
-**/application.yml
-
+#logs
 !**/logs/
+*.log

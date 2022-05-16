@@ -102,7 +102,7 @@ org.eclipse.jgit.api.errors.TransportException: https://ghp_pprBhi6omajyyOvIYAdI
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+	at ConfigServer.main(ConfigServer.java:13)
 Caused by: org.eclipse.jgit.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
 	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
 	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
@@ -134,7 +134,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+	at ConfigServer.main(ConfigServer.java:13)
 Caused by: org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
 	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
 	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)
@@ -190,7 +190,7 @@ org.eclipse.jgit.api.errors.TransportException: https://ghp_pprBhi6omajyyOvIYAdI
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+	at ConfigServer.main(ConfigServer.java:13)
 Caused by: org.eclipse.jgit.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
 	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
 	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
@@ -222,7 +222,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+	at ConfigServer.main(ConfigServer.java:13)
 Caused by: org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
 	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
 	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)
@@ -278,7 +278,7 @@ org.eclipse.jgit.api.errors.TransportException: https://github.com/wondercrunch/
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+	at ConfigServer.main(ConfigServer.java:13)
 Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
 	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
 	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
@@ -310,7 +310,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+	at ConfigServer.main(ConfigServer.java:13)
 Caused by: org.eclipse.jgit.api.errors.TransportException: https://github.com/wondercrunch/spring-cloud-config-server-repo: not authorized
 	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
 	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)
@@ -366,7 +366,7 @@ org.eclipse.jgit.api.errors.TransportException: https://ghp_pprBhi6omajyyOvIYAdI
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+	at ConfigServer.main(ConfigServer.java:13)
 Caused by: org.eclipse.jgit.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
 	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
 	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
@@ -398,7 +398,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:13)
+	at ConfigServer.main(ConfigServer.java:13)
 Caused by: org.eclipse.jgit.api.errors.TransportException: https://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@github.com/wondercrunch/spring-cloud-config-server-repo: Authentication is required but no CredentialsProvider has been registered
 	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
 	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:303)

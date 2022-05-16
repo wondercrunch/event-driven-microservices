@@ -6,6 +6,7 @@ services:
     ports:
       - "2181:2181"
     environment:
+      TZ: Europe/Moscow
       ZOOKEEPER_SERVER_ID: 1
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
@@ -25,6 +26,7 @@ services:
     ports:
       - "8081:8081"
     environment:
+      TZ: Europe/Moscow
       SCHEMA_REGISTRY_HOST_NAME: schema-registry
       SCHEMA_REGISTRY_KAFKASTORE_CONNECTION_URL: 'zookeeper:2181'
       SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: PLAINTEXT://kafka-broker-2:9092,LISTENER_LOCAL://localhost:29092 # for kafka 7.0.0
@@ -40,6 +42,7 @@ services:
     depends_on:
       - zookeeper
     environment:
+      TZ: Europe/Moscow
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka-broker-1:9092,LISTENER_LOCAL://localhost:19092
@@ -56,6 +59,7 @@ services:
     depends_on:
       - zookeeper
     environment:
+      TZ: Europe/Moscow
       KAFKA_BROKER_ID: 2
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka-broker-2:9092,LISTENER_LOCAL://localhost:29092
@@ -72,6 +76,7 @@ services:
     depends_on:
       - zookeeper
     environment:
+      TZ: Europe/Moscow
       KAFKA_BROKER_ID: 3
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka-broker-3:9092,LISTENER_LOCAL://localhost:39092
