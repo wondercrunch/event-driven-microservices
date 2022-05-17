@@ -37,4 +37,6 @@ build/
 
 #logs
 !**/logs/
+/docker-logs/
+/logstash/
 *.log
